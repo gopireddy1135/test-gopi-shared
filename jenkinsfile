@@ -1,0 +1,5 @@
+@Library('gopi-shared')
+
+stage('Demo')
+echo 'wass up'
+sayHello 'Reddy'
