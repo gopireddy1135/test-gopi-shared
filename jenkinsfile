@@ -1,5 +1,6 @@
-@Library('gopi-shared')
+@Library('gopi-shared')_
 
-stage('Demo')
-echo 'wass up'
-sayHello 'Reddy'
+stage('Demo') {
+    echo 'Hello world'
+    sayHello 'Gopi'
+}
