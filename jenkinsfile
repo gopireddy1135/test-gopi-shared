@@ -1,6 +1,8 @@
-@Library('gopi-shared')_
+@Library('gopi-shared') _
 
-stage('Demo') {
-    echo 'Hello world'
-    sayHello 'Gopi'
+standardpipeline {
+    projectName = "Project1"
+    serverDomain = "Project1 Server Domain"
 }
+
+
